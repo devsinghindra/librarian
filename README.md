@@ -1,16 +1,10 @@
-# librarian
+# Librarian
 
-A new Flutter application.
+A smart app for librarians for managing Library related transaction like adding book to database, and issue/reissue/return etc.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Authenticated Sign In options for Librarian.
+Search book by scanning barcode, by isbn , by title and voice.
+Get description of books, concept and sub-category of the book using NLP. Then add it to Library database maintained on Firebase.
+Get information of registered student and books he/she has.
+Books can be issued and reissued and returned by scanning isbn. And automatically in realtime the change is reflected in Student app.
+Get Instant search about availablity of books in library on the basis of title.
